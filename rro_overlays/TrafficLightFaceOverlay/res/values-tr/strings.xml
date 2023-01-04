@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_settings_face_enroll_education_message">Sonraki ekranda telefonunuzu göz hizasında tutun</string>
+    <string name="security_settings_face_enroll_education_title_accessibility">Yüz Tanıma Kilidi\'ni ayarlama</string>
+    <string name="security_settings_face_enroll_finish_description">Artık telefonunuzu elinize alıp kilidini açmak için yüzünüzü kullanabilirsiniz</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">Yüz Tanıma Kilidi\'ni tekrar kurmak için mevcut yüz modelinizi silin.\n\nYüz modeliniz güvenli bir şekilde kalıcı olarak silinir.\n\nSilme işleminden sonra, telefonunuzun kilidini açmak için PIN\'iniz, deseniniz veya şifreniz gerekir.</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body_fingerprint">Yüz Tanıma Kilidi\'ni tekrar kurmak için mevcut yüz modelinizi silin.\n\nYüz modeliniz güvenli bir şekilde kalıcı olarak silinir.\n\nSilme işleminden sonra, telefonunuzun kilidini açmak için parmak iziniz, PIN\'iniz, deseniniz veya şifreniz gerekir.</string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Normalde gözlük takıyorsanız kurulum sırasında da takabilirsiniz.</string>
+    <string name="security_settings_face_enroll_introduction_message">Telefonunuzun kilidini açmak için yüzünüzü kullanın</string>
+    <string name="security_settings_face_settings_footer">Telefonunuzun kilidini açmak için yüzünüzü kullanın.\n\nUnutmayın:\nTek seferde yalnızca bir tane yüz tanımlayabilirsiniz. Başka bir yüz eklemek için mevcut yüzü silin.\n\nTelefona bakarsanız, istemediğiniz zamanlarda da telefonunuzun kilidi açılabilir.\n\nTelefonunuz başka birisi tarafından yüzünüze tutulduğunda kilidi açılabilir.\n\nTelefonunuzun kilidi, ikiziniz gibi size çok benzeyen başka biri tarafından da açılabilir.</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">Telefonunuzun kilidini açmak için yüzünüzü kullanın.\n\nUnutmayın:\nTek seferde yalnızca bir tane yüz tanımlayabilirsiniz. Başka bir yüz eklemek için mevcut yüzü silin.\n\nTelefona bakarsanız, istemediğiniz zamanlarda da telefonunuzun kilidi açılabilir.\n\nGözleriniz kapalı olsa bile telefonunuz başka birisi tarafından yüzünüze tutulduğunda kilidi açılabilir.\n\nTelefonunuzun kilidi, ikiziniz gibi size çok benzeyen başka biri tarafından da açılabilir.</string>
+    <string name="security_settings_face_settings_require_attention_details">Telefonunuzun kilidini açmak için gözleriniz açık olmalıdır. En iyi sonucu elde etmek için telefonunuzun kilidini açarken güneş gözlüğünüzü çıkarın.</string>
+</resources>

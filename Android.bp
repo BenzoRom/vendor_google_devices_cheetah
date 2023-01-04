@@ -1,0 +1,606 @@
+// Copyright (C) 2023 Benzo Rom
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+android_app_import {
+    name: "PixelCameraServicesC10",
+    certificate: "platform",
+    apk: "product/app/PixelCameraServicesC10/PixelCameraServicesC10.apk",
+    optional_uses_libs: [
+        "com.google.android.camera.extensions",
+    ],
+    product_specific: true,
+}
+
+android_app_import {
+    name: "SSRestartDetector",
+    certificate: "platform",
+    apk: "product/app/SSRestartDetector/SSRestartDetector.apk",
+    product_specific: true,
+}
+
+android_app_import {
+    name: "Tycho",
+    presigned: true,
+    apk: "product/app/Tycho/Tycho.apk",
+    optional_uses_libs: [
+        "org.apache.http.legacy",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+    product_specific: true,
+}
+
+android_app_import {
+    name: "VZWAPNLib",
+    presigned: true,
+    apk: "product/app/VZWAPNLib/VZWAPNLib.apk",
+    product_specific: true,
+}
+
+android_app_import {
+    name: "AdaptiveVPNPrebuilt",
+    presigned: true,
+    apk: "product/priv-app/AdaptiveVPNPrebuilt/AdaptiveVPNPrebuilt.apk",
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "AmbientStreaming",
+    apk: "product/priv-app/AmbientStreaming/AmbientStreaming.apk",
+    presigned: true,
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "AppDirectedSMSService",
+    presigned: true,
+    apk: "product/priv-app/AppDirectedSMSService/AppDirectedSMSService.apk",
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "CarrierLocation",
+    presigned: true,
+    apk: "product/priv-app/CarrierLocation/CarrierLocation.apk",
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "CarrierServices",
+    overrides: ["CarrierConfig"],
+    presigned: true,
+    apk: "product/priv-app/CarrierServices/CarrierServices.apk",
+    privileged: true,
+    optional_uses_libs: [
+        "org.apache.http.legacy",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+    product_specific: true,
+}
+
+android_app_import {
+    name: "CarrierSettings",
+    presigned: true,
+    apk: "product/priv-app/CarrierSettings/CarrierSettings.apk",
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "CarrierWifi",
+    presigned: true,
+    apk: "product/priv-app/CarrierWifi/CarrierWifi.apk",
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "CbrsNetworkMonitor",
+    certificate: "platform",
+    apk: "product/priv-app/CbrsNetworkMonitor/CbrsNetworkMonitor.apk",
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "ConnMO",
+    certificate: "platform",
+    apk: "product/priv-app/ConnMO/ConnMO.apk",
+    privileged: true,
+    enforce_uses_libs: false,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "DCMO",
+    certificate: "platform",
+    apk: "product/priv-app/DCMO/DCMO.apk",
+    privileged: true,
+    enforce_uses_libs: false,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "DiagMon",
+    certificate: "platform",
+    apk: "product/priv-app/DiagMon/DiagMon.apk",
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "DMService",
+    certificate: "platform",
+    apk: "product/priv-app/DMService/DMService.apk",
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "DreamlinerPrebuilt",
+    presigned: true,
+    apk: "product/priv-app/DreamlinerPrebuilt/DreamlinerPrebuilt.apk",
+    privileged: true,
+    optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+    product_specific: true,
+}
+
+android_app_import {
+    name: "DreamlinerUpdater",
+    presigned: true,
+    apk: "product/priv-app/DreamlinerUpdater/DreamlinerUpdater.apk",
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "EuiccGoogle",
+    presigned: true,
+    apk: "product/priv-app/EuiccGoogle/EuiccGoogle.apk",
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "GCS",
+    presigned: true,
+    apk: "product/priv-app/GCS/GCS.apk",
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "HardwareInfo",
+    presigned: true,
+    apk: "product/priv-app/HardwareInfo/HardwareInfo.apk",
+    privileged: true,
+    enforce_uses_libs: false,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "HotwordEnrollmentOKGoogleFUSIONPro",
+    presigned: true,
+    apk: "product/priv-app/HotwordEnrollmentOKGoogleFUSIONPro/HotwordEnrollmentOKGoogleFUSIONPro.apk",
+    privileged: true,
+    uses_libs: [
+        "com.android.hotwordenrollment.common.util",
+    ],
+    product_specific: true,
+}
+
+android_app_import {
+    name: "HotwordEnrollmentXGoogleFUSIONPro",
+    presigned: true,
+    apk: "product/priv-app/HotwordEnrollmentXGoogleFUSIONPro/HotwordEnrollmentXGoogleFUSIONPro.apk",
+    privileged: true,
+    uses_libs: [
+        "com.android.hotwordenrollment.common.util",
+    ],
+    product_specific: true,
+}
+
+android_app_import {
+    name: "OemDmTrigger",
+    certificate: "platform",
+    apk: "product/priv-app/OemDmTrigger/OemDmTrigger.apk",
+    privileged: true,
+    enforce_uses_libs: false,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "SCONE",
+    presigned: true,
+    apk: "product/priv-app/SCONE/SCONE.apk",
+    privileged: true,
+    optional_uses_libs: [
+        "org.apache.http.legacy",
+    ],
+    product_specific: true,
+}
+
+android_app_import {
+    name: "TetheringEntitlement",
+    certificate: "platform",
+    apk: "product/priv-app/TetheringEntitlement/TetheringEntitlement.apk",
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "WfcActivation",
+    presigned: true,
+    apk: "product/priv-app/WfcActivation/WfcActivation.apk",
+    privileged: true,
+    enforce_uses_libs: false,
+    product_specific: true,
+}
+
+android_app_import {
+    name: "Flipendo",
+    certificate: "platform",
+    apk: "system_ext/app/Flipendo/Flipendo.apk",
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "OemRilHookService",
+    certificate: "platform",
+    apk: "system_ext/app/OemRilHookService/OemRilHookService.apk",
+    uses_libs: [
+        "oemrilhook",
+    ],
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "CarrierSetup",
+    certificate: "platform",
+    apk: "system_ext/priv-app/CarrierSetup/CarrierSetup.apk",
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "CccDkTimeSyncService",
+    presigned: true,
+    apk: "system_ext/priv-app/CccDkTimeSyncService/CccDkTimeSyncService.apk",
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "ConnectivityThermalPowerManager",
+    certificate: "platform",
+    apk: "system_ext/priv-app/ConnectivityThermalPowerManager/ConnectivityThermalPowerManager.apk",
+    privileged: true,
+    optional_uses_libs: [
+        "google-ril",
+    ],
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "EuiccGoogleOverlay",
+    presigned: true,
+    apk: "system_ext/priv-app/EuiccGoogleOverlay/EuiccGoogleOverlay.apk",
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "EuiccSupportPixel",
+    required: ["EuiccSupportPixelOverlay"],
+    presigned: true,
+    apk: "system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk",
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "EuiccSupportPixelPermissions",
+    presigned: true,
+    apk: "system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "grilservice",
+    presigned: true,
+    apk: "system_ext/priv-app/grilservice/grilservice.apk",
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "HbmSVManager",
+    certificate: "platform",
+    apk: "system_ext/priv-app/HbmSVManager/HbmSVManager.apk",
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "LLKAgent",
+    certificate: "platform",
+    apk: "system_ext/priv-app/LLKAgent/LLKAgent.apk",
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "MyVerizonServices",
+    presigned: true,
+    apk: "system_ext/priv-app/MyVerizonServices/MyVerizonServices.apk",
+    privileged: true,
+    enforce_uses_libs: false,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "OemRilService",
+    presigned: true,
+    apk: "system_ext/priv-app/OemRilService/OemRilService.apk",
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "QualifiedNetworksService",
+    certificate: "platform",
+    apk: "system_ext/priv-app/QualifiedNetworksService/QualifiedNetworksService.apk",
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "RilConfigService",
+    certificate: "platform",
+    apk: "system_ext/priv-app/RilConfigService/RilConfigService.apk",
+    privileged: true,
+    enforce_uses_libs: false,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "ShannonIms",
+    presigned: true,
+    apk: "system_ext/priv-app/ShannonIms/ShannonIms.apk",
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "ShannonRcs",
+    presigned: true,
+    apk: "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "TurboAdapter",
+    certificate: "platform",
+    apk: "system_ext/priv-app/TurboAdapter/TurboAdapter.apk",
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "UvExposureReporter",
+    certificate: "platform",
+    apk: "system_ext/priv-app/UvExposureReporter/UvExposureReporter.apk",
+    privileged: true,
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "UwbVendorService",
+    presigned: true,
+    apk: "system_ext/priv-app/UwbVendorService/UwbVendorService.apk",
+    privileged: true,
+    system_ext_specific: true,
+}
+
+java_import {
+    name: "com.google.android.dialer.support",
+    installable: true,
+    jars: ["product/framework/com.google.android.dialer.support.jar"],
+    product_specific: true,
+}
+
+java_import {
+    name: "libhwinfo",
+    installable: true,
+    jars: ["product/framework/libhwinfo.jar"],
+    product_specific: true,
+}
+
+java_import {
+    name: "com.android.hotwordenrollment.common.util",
+    installable: true,
+    jars: ["system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
+    compile_dex: true,
+    system_ext_specific: true,
+}
+
+java_import {
+    name: "com.google.android.camera.experimental2022_system",
+    installable: true,
+    jars: ["system_ext/framework/com.google.android.camera.experimental2022_system.jar"],
+    system_ext_specific: true,
+}
+
+java_import {
+    name: "com.google.android.camera.extensions",
+    installable: true,
+    jars: ["system_ext/framework/com.google.android.camera.extensions.jar"],
+    compile_dex: true,
+    system_ext_specific: true,
+}
+
+java_import {
+    name: "google-ril",
+    installable: true,
+    jars: ["system_ext/framework/google-ril.jar"],
+    compile_dex: true,
+    system_ext_specific: true,
+}
+
+java_import {
+    name: "oemrilhook",
+    installable: true,
+    jars: ["system_ext/framework/oemrilhook.jar"],
+    compile_dex: true,
+    system_ext_specific: true,
+}
+
+java_import {
+    name: "org.carconnectivity.android.digitalkey.timesync",
+    installable: true,
+    jars: ["system_ext/framework/org.carconnectivity.android.digitalkey.timesync.jar"],
+    system_ext_specific: true,
+}
+
+java_import {
+    name: "RadioConfigLib",
+    installable: true,
+    jars: ["system_ext/framework/RadioConfigLib.jar"],
+    system_ext_specific: true,
+}
+
+java_import {
+    name: "com.google.android.camera.experimental2022",
+    installable: true,
+    jars: ["vendor/framework/com.google.android.camera.experimental2022.jar"],
+    soc_specific: true,
+}
+
+prebuilt_etc {
+    name: "vendor-privapp-permissions-google-p.xml",
+    src: "product/etc/permissions/vendor-privapp-permissions-google-p.xml",
+    relative_install_path: "permissions",
+    product_specific: true,
+}
+
+prebuilt_etc {
+    name: "vendor-privapp-permissions-google-se.xml",
+    src: "system_ext/etc/permissions/vendor-privapp-permissions-google-se.xml",
+    relative_install_path: "permissions",
+    system_ext_specific: true,
+}
+
+// ARMNN_COMPUTE_CL_ENABLE
+cc_prebuilt_library_shared {
+    name: "libGLES_mali",
+    arch: {
+        arm: {
+            srcs: ["vendor/lib/egl/libGLES_mali.so"],
+            shared_libs: [
+                "android.hardware.graphics.mapper@4.0",
+                "libbase",
+                "libc",
+                "libc++",
+                "libcutils",
+                "libdl",
+                "libdmabufheap",
+                "libdrm",
+                "libgralloctypes",
+                "libhardware",
+                "libhidlbase",
+                "liblog",
+                "libm",
+                "libnativewindow",
+                "libutils",
+                "libz",
+            ],
+        },
+        arm64: {
+            srcs: ["vendor/lib64/egl/libGLES_mali.so"],
+            shared_libs: [
+                "android.hardware.graphics.mapper@4.0",
+                "libbase",
+                "libc",
+                "libc++",
+                "libcutils",
+                "libdl",
+                "libdmabufheap",
+                "libdrm",
+                "libgralloctypes",
+                "libhardware",
+                "libhidlbase",
+                "liblog",
+                "libm",
+                "libnativewindow",
+                "libutils",
+                "libz",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    relative_install_path: "egl",
+    soc_specific: true,
+    strip: {
+        none: true,
+    },
+}
+
+cc_prebuilt_library_shared {
+    name: "libOpenCL",
+    arch: {
+        arm: {
+            srcs: ["vendor/lib/libOpenCL.so"],
+            shared_libs: [
+                "libc",
+                "libc++",
+                "libdl",
+                "libGLES_mali",
+                "libm",
+            ],
+        },
+        arm64: {
+            srcs: ["vendor/lib64/libOpenCL.so"],
+            shared_libs: [
+                "libc",
+                "libc++",
+                "libdl",
+                "libGLES_mali",
+                "libm",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    soc_specific: true,
+    strip: {
+        none: true,
+    },
+}
+
+// Google Camera APEX
+prebuilt_apex {
+    name: "com.google.pixel.camera.hal",
+    installable: true,
+    src: "vendor/apex/com.google.pixel.camera.hal.apex",
+    soc_specific: true,
+}

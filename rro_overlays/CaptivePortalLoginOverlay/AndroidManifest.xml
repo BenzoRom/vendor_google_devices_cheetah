@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.android.captiveportallogin.overlay">
+
+    <overlay
+        android:targetPackage="com.android.captiveportallogin"
+        android:targetName="CaptivePortalLoginConfig"
+        android:isStatic="true"/>
+    <application
+        android:label="CaptivePortalLoginOverlay"
+        android:hasCode="false"/>
+</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_app_battery_usage_list_enabled">true</bool>
+    <bool name="config_face_settings_should_manage_preview">false</bool>
+    <bool name="config_gesture_settings_enabled">true</bool>
+    <bool name="config_hspa_data_distinguishable">true</bool>
+    <bool name="config_keep_contextual_card_dismissal_timestamp">true</bool>
+    <bool name="config_night_light_suggestion_enabled">false</bool>
+    <bool name="config_show_adaptive_connectivity">true</bool>
+    <bool name="config_show_smooth_display">true</bool>
+    <bool name="config_suc_use_partner_resource">true</bool>
+    <bool name="config_use_legacy_suggestion">false</bool>
+</resources>

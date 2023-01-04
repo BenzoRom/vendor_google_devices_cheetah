@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.android.settings.future.overlay.cheetah">
+
+    <overlay
+        android:targetPackage="com.google.android.settings.future.biometrics.faceenroll"
+        android:priority="10"
+        android:isStatic="true"/>
+    <application android:hasCode="false"/>
+</manifest>

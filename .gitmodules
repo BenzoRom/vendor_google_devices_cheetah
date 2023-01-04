@@ -1,0 +1,4 @@
+[submodule "vendor/apex"]
+	path = vendor/apex
+	url = https://bitbucket.org/xanaxdroid/cheetah_vendor_apex.git
+	branch = android13
